@@ -1,21 +1,21 @@
 The following styles are used by pandoc: ([From Docs][http://pandoc.org/MANUAL.html])
 
 ### Paragraph
-[] Title
-[] Subtitle
-[] Author
-[] Date
-[] Heading 1-6
-[] Normal
-[] Body Text
-[] First Paragraph
-[] Compact
-[] Abstract
-[] Bibliography
-[] Block Text
-[] Footnote Text
-[] Definition Term
-[] Definition
+[*] Title
+[*] Subtitle
+[*] Author
+[*] Date
+[*] Heading 1-6
+[*] Normal
+[*] First Paragraph
+[*] Compact
+[*] Abstract
+[*] Bibliography
+[*] Block Text
+[*] Footnote Text
+[*] Definition Term
+[*] Definition
+[*] Source Code
 [] Caption
 [] Table Caption
 [] Image Caption
@@ -24,9 +24,9 @@ The following styles are used by pandoc: ([From Docs][http://pandoc.org/MANUAL.h
 [] TOC Heading
 
 ### Character
-[] Footnote Reference
-[] Default Paragraph Font
-[] Body Text Char
+[*] Default Paragraph Font
+[*] Body Text Char
+[*] Footnote Reference
 [] Verbatim Char
 [] Hyperlink
 
