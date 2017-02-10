@@ -6,5 +6,5 @@ build:
 	--bibliography="bibliography.bib" \
 	--csl=sbl.csl \
 	--smart \
-	-o reference.docx \
-	markdown.md
+	-o reference_output.docx \
+	markdown-input.md
