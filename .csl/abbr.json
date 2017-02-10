@@ -1,0 +1,25 @@
+{ "default":
+  {
+    "collection-title": {
+      "The anchor bible":"AB",
+      "Anecdota oxoniensia": "AnecOx",
+      "Biblica et orientalia": "BO",
+      "Corpus scriptorum christianorum orientalium": "CSCO",
+      "Corpus scriptorum christianorum orientalium 510; scriptores aethiopici 87": "CSCO 510; SA 87",
+      "Discoveries in the judaean desert": "DJD",
+      "Forschungen zum alten testament": "FzAT",
+      "Harvard semitic monographs": "HSM",
+      "The heritage of sociology": "HS",
+      "Journal for the study of the old testament, supplement series":"JSOTsup",
+      "Media and cultural memory": "MCM",
+      "Old testament library": "OTL",
+      "Perspectives on hebrew scriptures and its contexts": "PHSC",
+      "Pseudepigrapha veteris testamenti graece": "PVTG",
+      "Semeia studies": "SemSt",
+      "SBL ancient israel and its literature": "SBLAIL",
+      "Studia post-biblica": "StPB", 
+      "Studies on the texts of the desert of judah": "STDJ",
+      "Supplements to the journal for the study of judaism": "JSJsup"
+    }
+  }
+}
