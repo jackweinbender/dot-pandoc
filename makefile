@@ -2,6 +2,7 @@ all: dot-pandoc dot-csl
 
 dot-pandoc:
 	@ echo "Linking .pandoc/" && \
+	rm -rf ~/.pandoc && \
 	ln -s $(CURDIR)/pandoc ~/.pandoc
 
 dot-csl:
