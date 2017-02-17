@@ -1,10 +1,17 @@
-all: build
-
-build:
-	@ pandoc \
+pandoc=pandoc \
 	--filter pandoc-citeproc \
 	--bibliography="bibliography.bib" \
-	--csl=sbl.csl \
+	--csl="chicago-author-date.csl" \
 	--smart \
+
+all: docx odt
+
+docx:
+	@ $(pandoc) \
 	-o reference_output.docx \
+	markdown-input.md
+
+odt:
+	@ $(pandoc) \
+	-o reference_output.odt \
 	markdown-input.md
