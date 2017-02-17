@@ -1,12 +1,12 @@
-all: ln-pandoc ln-csl
+all: dot-pandoc dot-csl
 
-ln-pandoc:
+dot-pandoc:
 	@ echo "Linking .pandoc/" && \
 	ln -s $(CURDIR)/pandoc ~/.pandoc
 
-ln-csl:
-	@ echo "Linking .csl/" && \
-	ln -s $(CURDIR)/csl ~/.csl
+dot-csl:
+	@ echo "Cloning .csl/" && \
+	git clone git@github.com:jackweinbender/csl.git ~/.csl
 
 rm-ln: 
 	@ echo "Deleting relevant files from home dir" && \
